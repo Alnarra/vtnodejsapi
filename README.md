@@ -3,8 +3,9 @@ This covers a few features that virustotal has made public including the ability
   - hashes
   - urls
   - domains
+  - ips 
 
-This requires the request node module as well as the https module
+This requires the request node module as well as the https module. You must also have a virus total API key 
 useage is fairly simple 
 
 ``` Javascript
