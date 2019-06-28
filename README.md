@@ -16,5 +16,9 @@ var vt = new virustotal({
   userAgent: "USER AGENT STRING HERE" //Optional setting if you want to make your user agent string unique 
   version: "v2" 
 )}
-vt.hash(searchITem)  
+vt.hash("A hash")
+vt.domain("some.domain.com") 
+vt.url("https://some.domain.com/?urlstring") 
+vt.ip("1.1.1.1") 
+vt.comment(searchItem) 
 ```
