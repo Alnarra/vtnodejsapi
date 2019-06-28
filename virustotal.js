@@ -24,7 +24,6 @@ class virustotal{
         data.url ? this.reqOptions.uri += `&${data.url}` : "" 
         this.reqOptions.method = data.method
         var options = this.reqOptions
-        console.log(options)
         return new Promise( (resolve, reject) => { 
             request(options, (err, res, body) => { 
                 err ? reject(err) : ""
